@@ -1,16 +1,21 @@
 <template>
     <div class="container">
-    
+      <app-quote-grid :quotes="quotes"></app-quote-grid>
     </div>
 </template>
 
 <script>
+import QuotesGrid from "./components/QuotesGrid.vue";
+
 export default {
   data: function() {
     return {
-      quotes: ["Simple quote to see something"],
+      quotes: ["Just a quote to see something"],
       maxQuotes: 10
     };
+  },
+  components: {
+    appQuoteGrid: QuotesGrid
   }
 };
 </script>
