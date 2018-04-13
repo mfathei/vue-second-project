@@ -5,10 +5,16 @@
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+  data: function() {
+    return {
+      quotes: ["Simple quote to see something"],
+      maxQuotes: 10
+    };
+  }
+};
 </script>
 
 <style>
+
 </style>
