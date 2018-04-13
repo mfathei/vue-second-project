@@ -10,7 +10,7 @@ import QuotesGrid from "./components/QuotesGrid.vue";
 export default {
   data: function() {
     return {
-      quotes: ["Just a quote to see something"],
+      quotes: ["Just a Quote to see something"],
       maxQuotes: 10
     };
   },
